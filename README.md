@@ -6,7 +6,7 @@
 Create FH5 map into a real map. Also known as a "fantasy map".
 
 <p align="center">
-  <img width="100%" src="https://user-images.githubusercontent.com/1221769/142767232-b9d5a1d3-d554-4961-a097-1ebd2f5d01d9.png">
+  <img width="100%" src="https://user-images.githubusercontent.com/1221769/143173486-fc2f2cd2-d9cc-416f-8066-8dc707ada3b8.png">
 </p>
 
 
@@ -39,11 +39,6 @@ Tracing quality of layers. Most important to have perfect is the road tracing, l
 Create SVG of FH5 map and convert it to a valid geoJSON or similar format to use as a basmap in QGIS or similar.
 
 
-### Contribution
-
-For now just edit the geojson file use rev.svg as reference, a OSD like iD editor would be nice.
-
-
 ### SVG TO GEOJSON
 
 
@@ -54,8 +49,8 @@ Add Lines below directly in SVG tag root
 ````
 <MetaInfo xmlns="http://www.prognoz.ru">
 	<Geo>
-		<GeoItem X="1000" Y="1000" Longitude="0.1" Latitude="-0.1"/>
-		<GeoItem X="0" Y="0" Longitude="-0.1" Latitude="0.1"/>
+		<GeoItem X="2148" Y="1435" Longitude="0.1" Latitude="-0.1" />
+		<GeoItem X="0" Y="0" Longitude="-0.2" Latitude="0.1" />
 	</Geo>
 </MetaInfo>
 ````
@@ -83,6 +78,9 @@ Inkscape 1.1.1
 [svg2geojson](https://www.npmjs.com/package/svg2geojson)
 
 #### Current Progress picture
+
+23/11
+![Screen Shot 2021-11-24 at 4 52 56 AM](https://user-images.githubusercontent.com/1221769/143172218-6589e872-dcad-45d2-acd9-b57a6c4e8b2d.png)
 
 21/11
 ![Screen Shot 2021-11-21 at 5 53 56 PM](https://user-images.githubusercontent.com/1221769/142771444-29a71126-d28c-4a67-8770-5ba05cb1c0d5.png)
